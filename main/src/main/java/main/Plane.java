@@ -10,6 +10,6 @@ public class Plane extends Vehicle{
 
 
     public void fly(){
-        System.out.println(this.name+" "+this.model+" lentää kohteeseen!");
+        System.out.println(this.type+" "+this.model+" lentää kohteeseen!");
     }
 }
