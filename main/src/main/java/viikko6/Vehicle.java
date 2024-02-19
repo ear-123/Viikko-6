@@ -1,6 +1,6 @@
 package main;
 
-public abstract class Vehicle {
+public class Vehicle {
     private String type;
     private String manufacturer;
     private String model;
