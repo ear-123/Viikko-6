@@ -52,6 +52,9 @@ public class App {
                     System.out.println("");
                 }
             }
+            if (option == 3) {
+                
+            }
         }
         scan.close();
         System.out.println("Kiitos ohjelman käytöstä.");

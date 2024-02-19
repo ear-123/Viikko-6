@@ -10,6 +10,6 @@ public class Ship extends Vehicle{
 
 
     public void sail(){
-
+        System.out.println(this.name+" "+this.model+" seilaa merten ääriin!");
     }
 }
