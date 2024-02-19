@@ -49,12 +49,8 @@ public class App {
             if (option == 2) {
                 for (Vehicle vehicle : vehicles) {
                     vehicle.printInfo();
+                    System.out.println("");
                 }
-            }
-
-            else {
-                System.out.println("Syöte oli väärä");
-                continue;
             }
         }
         scan.close();
