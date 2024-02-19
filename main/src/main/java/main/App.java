@@ -1,4 +1,4 @@
-package viikko6;
+package main;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -45,14 +45,13 @@ public class App {
                 if (typeNum == 3) {
                     vehicles.add(new Ship(manufacturer, model, maxSpeed));
                 }
-            
+            }
             if (option == 2) {
                 for (Vehicle vehicle : vehicles) {
                     vehicle.printInfo();
                 }
             }
 
-            }
             else {
                 System.out.println("Syöte oli väärä");
                 continue;

@@ -1,10 +1,11 @@
-package main.java.viikko6;
+package main;
 
 public class Vehicle {
     protected String type;
     protected String manufacturer;
     protected String model;
     protected int maxSpeed;
+    protected Engine engine;
 
     public Vehicle(String type, String manufacturer, String model, int maxSpeed){
         this.type = type;
@@ -15,7 +16,7 @@ public class Vehicle {
 
     public void printInfo(){
         System.out.println(this.type+": "+this.manufacturer+" "+this.model);
-        System.out.println("Moottori :"+this.engine.getName()+" "+this.engine.getPower()+"kW");
+        System.out.println("Moottori : "+this.engine.getName()+" "+this.engine.getPower()+"kW");
         System.out.println("Huippunopeus: "+ this.maxSpeed+"km/h");
     }
 }

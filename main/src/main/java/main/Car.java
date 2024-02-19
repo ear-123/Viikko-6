@@ -1,10 +1,11 @@
-package main.java.viikko6;
+package main;
 
 public class Car extends Vehicle{
-    private Engine engine = new Engine("V8", 300);
+    //private Engine engine = new Engine("V8", 300);
 
     public Car(String manufactrurer, String model, int maxSpeed){
         super("Auto", manufactrurer, model, maxSpeed);
+        this.engine = new Engine("V8", 300);
     }
 
     public void drive(){
