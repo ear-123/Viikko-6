@@ -1,4 +1,4 @@
-package main;
+package main.java.viikko6;
 
 public class Car extends Vehicle{
     private Engine engine = new Engine("V8", 300);

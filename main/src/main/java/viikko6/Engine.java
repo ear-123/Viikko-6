@@ -1,4 +1,4 @@
-package main;
+package main.java.viikko6;
 
 
 public class Engine {
