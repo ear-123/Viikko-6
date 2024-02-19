@@ -29,13 +29,13 @@ public class App {
             }
             if (option == 1) {
                 System.out.println("Minkä kulkuneuvon haluat rakentaa? 1) auto, 2) lentokone, 3) laiva");
-                int typeNum = Integer.getInteger(scan.nextLine());
+                int typeNum = Integer.parseInt(scan.nextLine());
                 System.out.println("Anna kulkuneuvon valmistaja:");
                 String manufacturer = scan.nextLine();
                 System.out.println("Anna kulkuneuvon malli:");
                 String model = scan.nextLine();
                 System.out.println("Anna kulkuneuvon huippunopeus:");
-                int maxSpeed = Integer.getInteger(scan.nextLine());
+                int maxSpeed = Integer.parseInt(scan.nextLine());
                 if (typeNum == 1) {
                     vehicles.add(new Car(manufacturer, model, maxSpeed));
                 }
