@@ -4,9 +4,9 @@ public class Vehicle {
     private String type;
     private String manufacturer;
     private String model;
-    private Int maxSpeed;
+    private int maxSpeed;
 
-    public Vehicle(String type, String manufacturer, String model, Int maxSpeed){
+    public Vehicle(String type, String manufacturer, String model, int maxSpeed){
         this.type = type;
         this.manufacturer = manufacturer;
         this.model = model;
