@@ -53,7 +53,25 @@ public class App {
                 }
             }
             if (option == 3) {
-                
+                for (Vehicle vehicle : vehicles) {
+                    if (vehicle instanceof Car) {
+                        ((Car)vehicle).drive();
+                    }
+                }
+            }
+            if (option == 4) {
+                for (Vehicle vehicle : vehicles) {
+                    if (vehicle instanceof Plane) {
+                        ((Planer)vehicle).fly();
+                    }
+                }
+            }
+            if (option == 5) {
+                for (Vehicle vehicle : vehicles) {
+                    if (vehicle instanceof Ship) {
+                        ((Ship)vehicle).sail();
+                    }
+                }
             }
         }
         scan.close();
