@@ -7,11 +7,7 @@ public class Ship extends Vehicle{
         super("ship", manufactrurer, model, maxSpeed);
     }
 
-    public void printInfo(){
-        System.out.println("Laiva : "+this.manufacturer+" "+this.model);
-        System.out.println("Moottori :"+this.engine.getName()+" "+this.engine.getPower()+"kW");
-        System.out.println("Huippunopeus: "+ this.maxSpeed+"km/h");
-    }
+
     public void sail(){
 
     }
