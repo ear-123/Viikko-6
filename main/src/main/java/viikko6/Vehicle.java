@@ -1,10 +1,10 @@
 package main;
 
 public class Vehicle {
-    private String type;
-    private String manufacturer;
-    private String model;
-    private int maxSpeed;
+    protected String type;
+    protected String manufacturer;
+    protected String model;
+    protected int maxSpeed;
 
     public Vehicle(String type, String manufacturer, String model, int maxSpeed){
         this.type = type;
@@ -12,4 +12,6 @@ public class Vehicle {
         this.model = model;
         this.maxSpeed = maxSpeed;
     }
+
+    
 }
