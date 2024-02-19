@@ -48,7 +48,8 @@ public class App {
             
             if (option == 2) {
                 for (Vehicle vehicle : vehicles) {
-                    
+                    vehicle.printInfo();
+                    System.out.println("");
                 }
             }
 
