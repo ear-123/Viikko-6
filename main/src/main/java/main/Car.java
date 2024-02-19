@@ -9,7 +9,7 @@ public class Car extends Vehicle{
     }
 
     public void drive(){
-        System.out.println(this.type+" "+this.model+" paahtaa tietä eteen päin!");
+        System.out.println(this.manufacturer+" "+this.model+" paahtaa tietä eteen päin!");
     }
 
     //public void printInfo(){
