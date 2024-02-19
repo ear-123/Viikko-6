@@ -62,7 +62,7 @@ public class App {
             if (option == 4) {
                 for (Vehicle vehicle : vehicles) {
                     if (vehicle instanceof Plane) {
-                        ((Planer)vehicle).fly();
+                        ((Plane)vehicle).fly();
                     }
                 }
             }
